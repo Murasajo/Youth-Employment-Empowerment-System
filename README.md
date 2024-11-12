@@ -33,7 +33,6 @@ If you would like to contribute, please refer to our [contributing guidelines](C
 
 ---
 
-
 ## Features
 
 1. **Dashboard**: Visualizes unemployment trends in Rwanda, with segmented data based on demographics.
@@ -88,7 +87,6 @@ To run this project locally, follow these steps:
 
 ---
 
----
 ## Usage
 
 Instructions on how to use the application will go here.
@@ -97,9 +95,6 @@ Instructions on how to use the application will go here.
 
 Screenshots of the application will go here.
 
----
-
----
 ## Technologies Used
 
 - Streamlit
@@ -109,7 +104,7 @@ Screenshots of the application will go here.
 - Plotly
 
 ---
----
+
 ## Future Improvements
 
 - Integration with job portals for real-time job recommendations.
@@ -117,15 +112,16 @@ Screenshots of the application will go here.
 - Mobile application version for broader accessibility.
 
 ---
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-## Contributing
+##  Acknowledgments
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- Special thanks to all contributors and collaborators.
+- Inspired by various open-source projects and communities.
+- Resources from [MDN Web Docs](https://developer.mozilla.org/), [React Documentation](https://reactjs.org/docs/getting-started.html), and [Vite Documentation](https://vitejs.dev/guide/).
 
 ---
