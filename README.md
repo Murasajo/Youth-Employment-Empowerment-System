@@ -11,6 +11,21 @@ Built with **Streamlit** for ease of use and interactivity, the application incl
 
 ---
 
+## Table of Contents
+
+- [Contributing](#-contributing)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Authors](#authors)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Future Improvements](#future-improvements)
+- [License](#-license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Here are several ways you can contribute:
@@ -41,21 +56,6 @@ Contributions are welcome! Here are several ways you can contribute:
 Once your PR is reviewed and approved, it will be merged into the main branch.
 
 </details>
-
----
-
-
-## Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -93,7 +93,7 @@ Once your PR is reviewed and approved, it will be merged into the main branch.
 
 
 👤 **Robert MUGABE**         
-👤 **DUSHIMIMANA MURASA Joseph**
+👤 **DUSHIMIMANA MURASA Joseph**         
 👤 **Anaella GIRIHIRWE**
 
 - GitHub: [@githubhandle](https://github.com/mugabe-rob)
@@ -137,8 +137,8 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 ##  Acknowledgments
 
-- Special thanks to all contributors and collaborators.
+- Special thanks to all contributors and collaborators who have dedicated their time and effort to this project.
 - Inspired by various open-source projects and communities.
-- Resources from [MDN Web Docs](https://developer.mozilla.org/), [React Documentation](https://reactjs.org/docs/getting-started.html), and [Vite Documentation](https://vitejs.dev/guide/).
+- Resources from [MDN Web Docs](https://developer.mozilla.org/), [Streamlit Documentation](https://docs.streamlit.io/), [Python Documentation](https://docs.python.org/3/), [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/), and [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html).
 
 ---
