@@ -1,4 +1,9 @@
-# Youth Employment Empowerment System
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">YEES</h1>
+</p>
 
 A web application aimed at addressing youth unemployment in Rwanda by providing personalized recommendations for education and skill development. This system analyzes a user’s background, interests, and skills to offer suggestions on career paths, educational programs, and certifications.
 
@@ -6,15 +11,36 @@ Built with **Streamlit** for ease of use and interactivity, the application incl
 
 ---
 
-## Contributors
+## 🤝 Contributing
 
-We would like to thank the following people who have contributed to this project:
+Contributions are welcome! Here are several ways you can contribute:
 
-- [Robert MUGABE](https://https://github.com/mugabe-rob)
-- [DUSHIMIMANA MURASA Joseph](https://github.com/Murasajo)
-- [GIRIHIRWE Anaella](https://https://github.com/AnaellaGirihirwe)
+<details closed>
+    <summary>Click here to view the contributing Guidelines</summary>
 
-If you would like to contribute, please refer to our [contributing guidelines](CONTRIBUTING.md).
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone https://github.com/Murasajo/Youth-Employment-Empowerment-System
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to GitHub**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+Once your PR is reviewed and approved, it will be merged into the main branch.
+
+</details>
 
 ---
 
@@ -61,31 +87,22 @@ If you would like to contribute, please refer to our [contributing guidelines](C
 ├── requirements.txt
 └── index.py
 ```
-
 ---
+## 👥 Authors <a name="authors"></a>
 
-## Installation
 
-To run this project locally, follow these steps:
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/youth_employment_empowerment_system.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd youth_employment_empowerment_system
-    ```
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Run the application:
-    ```bash
-    streamlit run index.py
-    ```
+👤 **Robert MUGABE**         
+👤 **DUSHIMIMANA MURASA Joseph**
+👤 **Anaella GIRIHIRWE**
 
----
+- GitHub: [@githubhandle](https://github.com/mugabe-rob)
+
+- Github:  [@githubhandle](https://github.com/Murasajo)
+
+- Github:  [@githubhandle](https://github.com/AnaellaGirihirwe)
+
+----
 
 ## Usage
 
