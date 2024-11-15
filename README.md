@@ -7,7 +7,9 @@
 
 A web application aimed at addressing youth unemployment in Rwanda by providing personalized recommendations for education and skill development. This system analyzes a user’s background, interests, and skills to offer suggestions on career paths, educational programs, and certifications.
 
-Built with **Streamlit** for ease of use and interactivity, the application includes features such as a data-driven dashboard, prediction models, and a recommendation engine, all designed to guide users toward employment opportunities and career growth.
+Built with **Streamlit** for ease of use and interactivity, the application includes features such as home, data-driven dashboard, Employment/Unemployment Analysis, prediction models, and a recommendation engine, all designed to guide users toward employment opportunities and career growth.
+
+**Here is the link to a brief screen capture video of us using our platform:** "https://youtu.be/Wo71snMn1rw"
 
 ---
 
