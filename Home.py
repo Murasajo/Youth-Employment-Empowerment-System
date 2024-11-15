@@ -113,9 +113,12 @@ def home():
     with st.expander("See Features"):
         st.write("""
         ### Features:
-        - **Dashboard**: Shows current trends in unemployment rates in Rwanda.
-        - **Prediction Page**: Predicts future unemployment trends based on historical data.
-        - **Skill & Course Recommendation System**: Provides personalized recommendations for further education or skill acquisition.
+        - **Home**: The landing page where you can navigate to other sections and learn more about the app.
+        - **Dashboard**: Displays current trends in youth employment and unemployment rates in Rwanda, with visual analytics.
+        - **Youth Employment/Unemployment**: Provides detailed insights into youth employment and unemployment trends, and factors affecting them.
+        - **Prediction**: Predicts future unemployment trends and outcomes based on historical data using machine learning models.
+        - **Recommendation**: Offers personalized recommendations for skills and courses to improve employability, based on the user’s profile and goals.
+        - **Documentation**: Contains detailed documentation on how to use the app, including explanations of models, data, and features.
         """)
 
 
