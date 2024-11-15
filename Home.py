@@ -40,7 +40,7 @@ st.markdown("""
 
 # Home Page
 def home():
-    st.title("🌍 Youth Employment Empowerment System ")
+    st.title("🌍 Youth Employment Empowerment System (YESS)")
     st.header("Overview")
     st.image("image0.jpeg", use_column_width=True)  # Add an overview image
     st.write("""
