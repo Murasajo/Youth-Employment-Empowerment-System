@@ -72,40 +72,13 @@ def employment_unemployment():
     if page == "Employment":
         # Employment metrics
         with col1:
-            st.markdown("""
-                <div class="custom-metric">
-                    <div>Total Youth Population</div>
-                    <div class="custom-metric-value">4,241,657</div>
-                    <div class="custom-metric-change">-0.068%</div>
-                </div>
-            """, unsafe_allow_html=True)
-
+            st.metric("Total Youth Population", "4,241,657", "-0.068%")
         with col2:
-            st.markdown("""
-                <div class="custom-metric">
-                    <div>Total Employed Youth Population</div>
-                    <div class="custom-metric-value">2,080,003</div>
-                    <div class="custom-metric-change">16.09%</div>
-                </div>
-            """, unsafe_allow_html=True)
-        
+            st.metric("Total Employed Youth Population", "2,080,003", "16.09%")
         with col3:
-            st.markdown("""
-                <div class="custom-metric">
-                    <div>Total Employed Youth aged 16-24_yrs</div>
-                    <div class="custom-metric-value">909,629</div>
-                    <div class="custom-metric-change">22.34%</div>
-                </div>
-            """, unsafe_allow_html=True)
-        
+            st.metric("Total Employed Youth aged 16-24_yrs", "909,629", "22.34%")
         with col4:
-            st.markdown("""
-                <div class="custom-metric">
-                    <div>Employement to pop_ratio age 16-24_yrs(%)</div>
-                    <div class="custom-metric-value">38.3%</div>
-                    <div class="custom-metric-change">8.4%</div>
-                </div>
-            """, unsafe_allow_html=True)
+            st.metric("Employement to pop_ratio age 16-24_yrs(%)", "38.3%", "8.4%")
 
         # First row of charts
         col1, col2 = st.columns(2)
