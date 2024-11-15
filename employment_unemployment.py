@@ -23,7 +23,7 @@ def employment_unemployment():
             color: white;
         }
         .css-1d391kg {
-            background-color: #2b2b2b;
+            background-color: pink;
         }
         .stMetric {
             background-color: #3700ff;
@@ -35,15 +35,6 @@ def employment_unemployment():
 
     # data generation
     def generate_data():
-        dates = pd.date_range(start='2023-01-01', end='2023-07-31', freq='D')
-        employment_data = pd.DataFrame({
-            'Date': dates,
-            'Employment_Rate': np.random.uniform(60, 75, len(dates)),
-            'Unemployment_Rate': np.random.uniform(4, 8, len(dates)),
-            'Job_Growth': np.random.uniform(-2, 5, len(dates)),
-            'Labor_Force': np.random.uniform(150, 170, len(dates))
-        })
-
         with open("merged_data.pkl", "rb") as f:
             merged_data = pickle.load(f)
         
@@ -59,14 +50,14 @@ def employment_unemployment():
         with open("unemployment_data.pkl", "rb") as f:
             df = pickle.load(f)
 
-        return (employment_data, merged_data, employment_pop_ratio, employment_by_occupation_category, melted_df, df)
+        return (merged_data, employment_pop_ratio, employment_by_occupation_category, melted_df, df)
 
     # Create sidebar
     st.sidebar.title("Dashboard Navigation")
     page = st.sidebar.radio("Select Analysis", ["Employment", "Unemployment"])
 
     # Generate sample data
-    employment_data, merged_data, employment_pop_ratio, employment_by_occupation_category, melted_df, df = generate_data()
+    merged_data, employment_pop_ratio, employment_by_occupation_category, melted_df, df = generate_data()
 
     # Main dashboard layout
     st.title(f"{page} Status")
@@ -81,13 +72,40 @@ def employment_unemployment():
     if page == "Employment":
         # Employment metrics
         with col1:
-            st.metric("Total Youth Population", "4,241,657", "-0.068%")
+            st.markdown("""
+                <div class="custom-metric">
+                    <div>Total Youth Population</div>
+                    <div class="custom-metric-value">4,241,657</div>
+                    <div class="custom-metric-change">-0.068%</div>
+                </div>
+            """, unsafe_allow_html=True)
+
         with col2:
-            st.metric("Total Employed Youth Population", "2,080,003", "16.09%")
+            st.markdown("""
+                <div class="custom-metric">
+                    <div>Total Employed Youth Population</div>
+                    <div class="custom-metric-value">2,080,003</div>
+                    <div class="custom-metric-change">16.09%</div>
+                </div>
+            """, unsafe_allow_html=True)
+        
         with col3:
-            st.metric("Total Employed Youth aged 16-24_yrs", "909,629", "22.34%")
+            st.markdown("""
+                <div class="custom-metric">
+                    <div>Total Employed Youth aged 16-24_yrs</div>
+                    <div class="custom-metric-value">909,629</div>
+                    <div class="custom-metric-change">22.34%</div>
+                </div>
+            """, unsafe_allow_html=True)
+        
         with col4:
-            st.metric("Employement to pop_ratio age 16-24_yrs(%)", "38.3%", "8.4%")
+            st.markdown("""
+                <div class="custom-metric">
+                    <div>Employement to pop_ratio age 16-24_yrs(%)</div>
+                    <div class="custom-metric-value">38.3%</div>
+                    <div class="custom-metric-change">8.4%</div>
+                </div>
+            """, unsafe_allow_html=True)
 
         # First row of charts
         col1, col2 = st.columns(2)
