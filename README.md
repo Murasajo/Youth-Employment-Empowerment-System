@@ -11,7 +11,7 @@ Built with **Streamlit** for ease of use and interactivity, the application incl
 
 **Here is the link to a brief screen capture video of us using our platform:** "https://youtu.be/Wo71snMn1rw"
 
-**Here is the link to the live site of our platform:** "[https://youtu.be/Wo71snMn1rw](https://youth-employment-empowerment-system-qsquehgjdxtrd3cryzkfwj.streamlit.app/)"
+**Here is the link to the live site of our platform:** "https://youth-employment-empowerment-system-qsquehgjdxtrd3cryzkfwj.streamlit.app/"
 
 ---
 
