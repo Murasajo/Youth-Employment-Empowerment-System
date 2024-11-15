@@ -104,7 +104,7 @@ st.markdown("""
 def home():
     st.title("🌍 Youth Employment Empowerment System(YEES) ")
     st.header("Overview")
-    st.image("image0.jpeg", use_column_width=True)  # Add an overview image
+    st.image("Image0.jpeg", use_column_width=True)  # Add an overview image
     st.write("""
     This project aims to address the unemployment problem in Rwanda by leveraging quality education.
     The application provides insights into current unemployment trends and offers personalized recommendations
